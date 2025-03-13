@@ -1,0 +1,20 @@
+Basic Understanding Questions:
+
+What is the main contribution of the "Attention Is All You Need" paper?
+How does the Transformer differ from traditional Recurrent Neural Networks (RNNs)?
+What are the key advantages of using self-attention instead of recurrence in sequence modeling?
+Why did the authors choose to remove convolutions and recurrence in the Transformer architecture?
+
+Technical Questions:
+What is multi-head attention, and how does it improve model performance?
+How does the scaled dot-product attention work in the Transformer?
+What is the role of positional encoding in the Transformer model?
+Explain the encoder-decoder structure of the Transformer and how they interact.
+What are the main components of the feed-forward network in the Transformer model?
+How does beam search help improve the quality of translation in the Transformer?
+Comparison & Performance:
+How does the Transformer compare to previous state-of-the-art models in terms of BLEU scores for machine translation?
+Why is the Transformer more parallelizable than RNN-based architectures?
+What is the effect of increasing the number of attention heads on performance?
+How did the authors optimize training efficiency using dropout and learning rate scheduling?
+What are some future applications of attention-based architectures mentioned in the paper?

@@ -1,0 +1,15 @@
+make .env file first 
+then requirements.txt file and write package requirements
+then run pip install -r requirements.txt
+check python version 
+# Create a virtual environment using venv
+python -m venv venv
+Set-ExecutionPolicy Unrestricted -Scope Process
+or
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+venv\Scripts\activate
+or
+.\venv\Scripts\activate
+
+pip install streamlit langchain langchain-google-genai google-generativeai PyPDF2 faiss-cpu python-dotenv
+
